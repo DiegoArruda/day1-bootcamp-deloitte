@@ -8,6 +8,7 @@ public class exercicio1 {
         Scanner input = new Scanner(System.in);
         float numero1 = input.nextFloat();
         float numero2 = input.nextFloat();
+        //uma alteração no código
 
         System.out.println("A soma de " + numero1 + " e " + numero2 + " é " + (numero1+numero2));
     }
