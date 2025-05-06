@@ -2,7 +2,7 @@ package exercicio1;
 
 import java.util.Scanner;
 
-public class exercicio1 {
+public class Exercicio1 {
     public static void main(String[] args) {
         System.out.println("Digite dois numeros para imprimir a soma deles: ");
         Scanner input = new Scanner(System.in);

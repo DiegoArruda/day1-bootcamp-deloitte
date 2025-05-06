@@ -2,7 +2,7 @@ package exercicio3;
 
 import java.util.Scanner;
 
-public class exercicio3 {
+public class Exercicio3 {
     public static void main(String[] args) {
         System.out.println("Digite suas 3 notas para saber se foi aprovado ou não");
 
