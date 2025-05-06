@@ -2,18 +2,17 @@ package OO;
 
 public class main {
     public static void main(String[] args) {
-        Pessoa jovem = new Pessoa();
-        jovem.nome = "Tiago";
-        jovem.idade = 15;
-        jovem.maiorDeIdade(jovem.idade);
+        Pessoa pessoa1 = new Pessoa();
+        pessoa1.nome = "Tiago";
+        pessoa1.idade = 15;
+        pessoa1.maiorDeIdade(pessoa1.idade);
 
-        Pessoa adulto = new Pessoa();
-        adulto.nome = "Paulo";
-        adulto.idade = 36;
+        Pessoa pessoa2 = new Pessoa();
+        pessoa2.nome = "Paulo";
+        pessoa2.idade = 36;
 
-        if(jovem.idade<adulto.idade){
-            System.out.println("O jovem é mais novo que o adulto");
-        }else System.out.println("O jovem é mais velho que o adulto");
+        System.out.println((pessoa1.idade < pessoa2.idade) ? pessoa1.nome + " é mais novo que " + pessoa2.nome :
+                pessoa1.nome + " é mais velho que " + pessoa2.nome );
 
     }
 }
